@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="pgTitle">تحكم بالسيرفو</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="home-content">
+    <h2 class="convTitle"> التحكم في السيرفو موتر عبر الصوت </h2> 
+
+    <div class="inputBx">
+      <div class="icon"><i class="fas fa-microphone"></i></div>
+      <button class="connect" onclick="onConnect()"> توصيل </button>
+      <input type="text" autofocus>
+    </div>
+
+    <p class="status">انقر على بداية التسجيل</p>
+
+    <div class="servoController">
+      <h2> زاوية السيرفو موتر </h2>
+      <span id="servoPos"></span>
+    <input type="range" min="0" max="180" float="right" class="slider" id="servoSlider" onchange="servo(this.value)"/>
+    </div>
+    
+  </section>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/serial.js"></script>
+
+</body>
+</html>

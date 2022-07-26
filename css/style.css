@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  margin: 0 auto;
+}
+.home-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  max-width: 60%;
+  line-height: 2.5;
+  border-radius: 12px;
+  background-color: #e4eaee;
+  text-align: right;
+}
+.inputBx{
+  display: flex;
+  flex-direction: row;
+}
+.inputBx input{
+  padding: 10px ;
+  border: none;
+  box-shadow:  0 0 4px rgba(0,0,0,.4);
+  outline: none;
+  width: 300px;
+  height: 40px;;
+  font-size: 16px;
+  text-align: right;
+}
+.inputBx button{
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  box-shadow:  0 0 4px rgba(0,0,0,.4);
+  border-radius: 5px;
+  color: #fff;
+  background-color: #176C7C;
+  border: none;
+}
+.icon i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  box-shadow:  0 0 4px rgba(0,0,0,.4);
+  border-radius: 50%;
+  color: #fff;
+  background-color: #176C7C;
+}
+.icon i:hover{
+  background-color: #1f7586;
+}
+.slider {
+  width: 300px;
+}
+   
