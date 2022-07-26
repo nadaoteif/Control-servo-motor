@@ -1,5 +1,3 @@
-
-
 let isConnect = false;
 let port;
 let writer;
@@ -25,7 +23,7 @@ async function onConnect() {
         const port = await navigator.serial.requestPort({ items });
         await port.open({ baudRate: 115200 });
         writer = port.writable.getWriter();
-        isConnectted = true;
+        isConnect = true;
     } 
     catch (e) {
         console.log("err", e);
