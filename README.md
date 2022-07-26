@@ -6,7 +6,7 @@ These tasks is completed by [Nada Oteif](https://sa.linkedin.com/in/nadaoteif) a
 
 ## Description:
 
-The [Web Serial API](!https://web.dev/serial) provides a way for websites to read from and write to a serial device with JavaScript. Serial devices are connected either through a serial port on the user's system or through removable USB and Bluetooth devices that emulate a serial port.
+The [Web Serial API](https://web.dev/serial) provides a way for websites to read from and write to a serial device with JavaScript. Serial devices are connected either through a serial port on the user's system or through removable USB and Bluetooth devices that emulate a serial port.
 
 ## Testing the Web Server
 
