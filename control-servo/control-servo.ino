@@ -1,3 +1,10 @@
+/*********
+  Rui Santos
+  Complete project details at https://randomnerdtutorials.com  
+  Written by BARRAGAN and modified by Scott Fitzgerald
+*********/
+
+
 #include <WiFi.h>
 #include <Servo.h>
 
